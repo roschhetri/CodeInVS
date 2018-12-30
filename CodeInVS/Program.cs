@@ -13,6 +13,8 @@ namespace CodeInVS
             Console.WriteLine("Code in VS add to Git Repo");
 
             //New Line added in VS
+            
+            //New Line added in GitHub
 
             Console.ReadLine();
         }
