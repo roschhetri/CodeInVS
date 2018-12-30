@@ -11,6 +11,9 @@ namespace CodeInVS
         static void Main(string[] args)
         {
             Console.WriteLine("Code in VS add to Git Repo");
+
+            //New Line added in VS
+
             Console.ReadLine();
         }
     }
