@@ -13,8 +13,10 @@ namespace CodeInVS
             Console.WriteLine("Code in VS add to Git Repo");
 
             //New Line added in VS
-            
+
             //New Line added in GitHub
+
+            Console.WriteLine("Factorial of 5 is {0}",Feature1.Factorial(5));
 
             Console.ReadLine();
         }
