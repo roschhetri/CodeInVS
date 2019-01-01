@@ -15,8 +15,10 @@ namespace CodeInVS
             //New Line added in VS
 
             //New Line added in GitHub
+            Console.WriteLine("Enter a positive number to calculate Factorial:");
+            int fact = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Factorial of 5 is {0}",Feature1.Factorial(5));
+            Console.WriteLine("Factorial of {0} is {1}",fact,Feature1.Factorial(fact));
 
             Console.ReadLine();
         }
