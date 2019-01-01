@@ -13,8 +13,12 @@ namespace CodeInVS
             Console.WriteLine("Code in VS add to Git Repo");
 
             //New Line added in VS
-            
+
             //New Line added in GitHub
+            Console.WriteLine("Enter a positive number to calculate Factorial:");
+            int fact = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Factorial of {0} is {1}",fact,Feature1.Factorial(fact));
 
             Console.ReadLine();
         }
