@@ -18,8 +18,13 @@ namespace CodeInVS
             Console.WriteLine("Enter a positive number to calculate Factorial:");
             int fact = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Factorial of {0} is {1}",fact,Feature1.Factorial(fact));
+            Console.WriteLine("Factorial of {0} is {1}", fact, Feature1.Factorial(fact));
 
+            Console.WriteLine("==================================");
+            Console.WriteLine("Enter the Nth Fibonacci number:");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Feature2.Fibonacci_Iterative(n);
+            Console.WriteLine("==================================");
             Console.ReadLine();
         }
     }
